@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172d31">
+  <meta name="description" content="Математический адвент: 24 дня приключения в старинном рождественском городе. Рабочий прототип.">
+  <title>Тайна пропавшей полуночи · Математический адвент</title>
+  <link rel="icon" href="assets/seal.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">К содержанию</a>
+  <header class="topbar">
+    <a class="brand" href="#calendar" aria-label="Бюро невозможных событий — календарь"><img src="assets/seal.svg" width="40" height="40" alt=""><span>БЮРО НЕВОЗМОЖНЫХ<br><strong>СОБЫТИЙ</strong></span></a>
+    <nav aria-label="Главное меню"><a href="#calendar" data-nav="calendar">Календарь</a><a href="#archive" data-nav="archive">Архив улик <span id="clue-count">0</span></a><a href="#about" data-nav="about">Об адвенте</a></nav>
+    <button class="settings-button" id="settings-open" aria-label="Открыть настройки">⚙ <span>Настройки</span></button>
+  </header>
+  <div class="demo-strip" id="mode-banner"></div>
+  <main id="main" tabindex="-1"></main>
+  <footer><span>Лихтенбург · Декабрь 2026</span><span>Математика открывает больше, чем кажется.</span><span>Рабочий прототип · v0.1</span></footer>
+  <div id="toast" role="status" class="toast" hidden></div>
+  <dialog id="settings" aria-labelledby="settings-title">
+    <div class="dialog-head"><h2 id="settings-title">Настройки путешествия</h2><button id="settings-close" class="icon-button" aria-label="Закрыть настройки">×</button></div>
+    <p>В демонстрационном режиме все 24 дня доступны сразу. Даты и часовой пояс настоящего адвента задаются в файле содержания.</p>
+    <label class="switch-row"><span><strong>Демонстрационный режим</strong><small>Просмотр всех дней без ожидания</small></span><input id="demo-toggle" type="checkbox"></label>
+    <div class="setting-note">Прогресс хранится только в этом браузере. Сохраните копию перед сменой устройства или адреса сайта. Загрузка файла заменит текущее прохождение.</div>
+    <div class="button-row"><button id="export-progress" class="button secondary">Скачать прогресс</button><label class="button secondary" for="import-progress">Загрузить прогресс</label><input id="import-progress" type="file" accept="application/json,.json" hidden></div>
+    <hr><button id="reset-progress" class="text-button danger">Сбросить моё прохождение</button>
+    <div id="reset-confirm" hidden><p>Удалить просмотренные дни, подсказки и улики из этого браузера?</p><div class="button-row"><button id="reset-yes" class="button">Да, начать заново</button><button id="reset-no" class="button secondary">Отмена</button></div></div>
+  </dialog>
+  <noscript>Для календаря и проверки ответов включите JavaScript в браузере.</noscript>
+</body>
+</html>

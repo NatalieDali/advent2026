@@ -1,0 +1,15 @@
+{
+  "version": "0.1",
+  "originalCommit": "b64a31386d6a373ce7b428b54377361acb95ccf7",
+  "archived": "2026-11-01",
+  "sha256": {
+    "index.html": "d1082f53fb9e31e8f2aa04ff3118885e141a9d4d76fd143655409512a25866d6",
+    "styles.css": "8116fc042ae1b095c30f743772b2276f9627d0e7563848b224ef84215eb124af",
+    "content.js": "0867760f6836115e40296e68f0c44291e5a1fbee5b83c8a7dfa9e8c638a0e5b6",
+    "app.js": "bb8133b30e4d5a3cba982d3dc1d7f902514bb9feb2e6fc5fc91f659bca9a0b57",
+    "README.md": "513d56b454e8942b4a751e86fa53d4c13f8ecfa117ea3767fc55cab9e36d0630",
+    ".nojekyll": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "assets/seal.svg": "5229d3dff569d2ea56ff9194022b11d451fa412d15fdb4e8a1ad980399818c00",
+    "assets/city.svg": "24f8b2f7bb06dea08d5ca273f85e96a1602233e12086efd23d401d7c9baad4b9"
+  }
+}
