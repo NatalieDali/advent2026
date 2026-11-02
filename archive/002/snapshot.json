@@ -1,0 +1,20 @@
+{
+  "archive": 2,
+  "archived": "2026-11-02",
+  "sourceCommit": "a1603bffd7da79a6eb8aefc4b70e0be16b4dea9d",
+  "description": "v0.2 before separating hints by day, removing city-change panels and hiding the key minimum in the pocket",
+  "sha256": {
+    ".gitignore": "d1ac3ec22c621f3ee847995d7726e91d72409638880540d751cb3003956fbb83",
+    ".nojekyll": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "README.md": "68a186da2587e25b76b70b6f3e1aa02eeeec1e24d1f87ab9fe2c4ec7b5ed407f",
+    "app.js": "f7b0026a1d4619abbc3673b559cc2fa50950ddcb130e406969231c80d28f1ee1",
+    "assets/city-v2.svg": "f8a52ccab4efb5d0e53cbf52ded4ca754e52af35de026ae62328eb34c9f96ddb",
+    "assets/city.svg": "24f8b2f7bb06dea08d5ca273f85e96a1602233e12086efd23d401d7c9baad4b9",
+    "assets/seal.svg": "5229d3dff569d2ea56ff9194022b11d451fa412d15fdb4e8a1ad980399818c00",
+    "content.js": "79134a4b85d7ebdf098c8729efba7aea90b131b210b713f06b1ac8febe8f0369",
+    "core.js": "e4f7821651151d1bd17b3f29d306596f9a678fe9fdf4cb0daa92903f54fe43a9",
+    "index.html": "737f8a40ca3926bb831f17d55d8d25b8bdb0a7d4b5004d58d32c1a473372fab6",
+    "styles.css": "90e1ef2eeb07c22435ad1b74fdd222cc8097e50ea02c8c919b29c6120a27ead4",
+    "tests/regression.cjs": "2bda4185c60369c7308e915c97ee894107abaec4bd1adaded9d64fb8e130f122"
+  }
+}
